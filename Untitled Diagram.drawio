@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T14:54:11.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="K6EaGJpnOtwsOSPgf3W_" version="14.8.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-07-09T16:37:15.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="-UEYb5lskH6IHb_ITKza" version="14.8.5" type="github" pages="3">
   <diagram id="K2p1Gg03RsohRuli_Zxr" name="Page-1">
-    <mxGraphModel dx="782" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-2xxfe4GZpgjKEHO3-6V-1" value="Component : unit amount of UI.&amp;nbsp;&lt;br&gt;2 types of components :&amp;nbsp;&lt;br&gt;1. smart component :&amp;nbsp;&lt;br&gt;2. dumb component. to do the reusability.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-2xxfe4GZpgjKEHO3-6V-1" value="Component : unit amount of UI.&amp;nbsp;&lt;br&gt;2 types of components :&amp;nbsp;&lt;br&gt;1. smart component :&amp;nbsp;&lt;br&gt;2. dumb component. to do the reusability.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="62" y="100" width="460" height="70" as="geometry" />
         </mxCell>
       </root>
@@ -50,6 +50,23 @@
         </mxCell>
         <mxCell id="bSQ3q1H7U0tl5dDUjRKu-13" value="App.js/App Component" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="bSQ3q1H7U0tl5dDUjRKu-1">
           <mxGeometry x="440" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i8UANiWTPGk5QsVBbRN7" name="Page-3">
+    <mxGraphModel dx="1038" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="777A-Valr2vK2hFcatlJ-0" />
+        <mxCell id="777A-Valr2vK2hFcatlJ-1" parent="777A-Valr2vK2hFcatlJ-0" />
+        <mxCell id="777A-Valr2vK2hFcatlJ-2" value="&lt;font color=&quot;#66ffff&quot;&gt;1. Create the form&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(51 , 255 , 255)&quot;&gt;2. map the submit event&lt;/span&gt;&lt;br&gt;3. state : state is a predefined object which is available in Component class (base class) which is used to maintain the state of the form.&lt;br&gt;&lt;span style=&quot;background-color: rgb(51 , 255 , 255)&quot;&gt;state is immutable.&lt;/span&gt; we can change the content of the state using setState method.&lt;br&gt;How to get the state : we have to use a constructor &amp;amp; inside the constructor we can initialize the state.&lt;br&gt;4. accept the data &amp;amp; print it on console.&lt;br&gt;5. use axios&lt;br&gt;6. perform rest call." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="777A-Valr2vK2hFcatlJ-1">
+          <mxGeometry x="150" y="60" width="240" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="777A-Valr2vK2hFcatlJ-3" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="777A-Valr2vK2hFcatlJ-1">
+          <mxGeometry x="570" y="240" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="777A-Valr2vK2hFcatlJ-4" value="whenever u want to use the state then inside the constrcutor we have to call super method." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="777A-Valr2vK2hFcatlJ-1">
+          <mxGeometry x="460" y="70" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
